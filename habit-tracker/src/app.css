@@ -59,6 +59,10 @@ button {
   list-style: none;
 }
 
+.habit-name {
+  font-size: 36px;
+}
+
 .habit-count {
   display: inline-block;
   text-align: center;
