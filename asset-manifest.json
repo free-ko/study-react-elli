@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/study-react-elli/static/css/main.dd4fec85.chunk.css",
+    "main.js": "/study-react-elli/static/js/main.1829d869.chunk.js",
+    "main.js.map": "/study-react-elli/static/js/main.1829d869.chunk.js.map",
+    "runtime-main.js": "/study-react-elli/static/js/runtime-main.fd099fc6.js",
+    "runtime-main.js.map": "/study-react-elli/static/js/runtime-main.fd099fc6.js.map",
+    "static/js/2.b32eb186.chunk.js": "/study-react-elli/static/js/2.b32eb186.chunk.js",
+    "static/js/2.b32eb186.chunk.js.map": "/study-react-elli/static/js/2.b32eb186.chunk.js.map",
+    "index.html": "/study-react-elli/index.html",
+    "precache-manifest.8459360ec42dcfc88cfa0449044eb845.js": "/study-react-elli/precache-manifest.8459360ec42dcfc88cfa0449044eb845.js",
+    "service-worker.js": "/study-react-elli/service-worker.js",
+    "static/css/main.dd4fec85.chunk.css.map": "/study-react-elli/static/css/main.dd4fec85.chunk.css.map",
+    "static/js/2.b32eb186.chunk.js.LICENSE.txt": "/study-react-elli/static/js/2.b32eb186.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd099fc6.js",
+    "static/js/2.b32eb186.chunk.js",
+    "static/css/main.dd4fec85.chunk.css",
+    "static/js/main.1829d869.chunk.js"
+  ]
+}
