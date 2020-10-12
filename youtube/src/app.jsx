@@ -18,7 +18,7 @@ function App({youtube}) {
   return (
     <div className={styles.app}>
       <SearchHeader onSearch={search} />
-      <VideoList videos={videos} />;
+      <VideoList videos={videos} />
     </div>
   );
 }
