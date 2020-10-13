@@ -1,26 +1,21 @@
 import React from 'react';
-import styles from './video_item.module.css';
+import styles from './video_detail.module.css';
 
-const VideoItem = ({ video, video: { snippet }, onVideoClick, display }) => {
-  const displayType = display === 'list' ? styles.list : styles.grid;
-  return (
-    <li
-      className={`${styles.container} ${displayType}`}
-      onClick={() => onVideoClick(video)}
-    >
-      <div className={styles.video}>
-        <img
-          className={styles.thumbnail}
-          src={snippet.thumbnails.medium.url}
-          alt="video thumbnail"
-        />
-        <div className={styles.metadata}>
-          <p className={styles.title}>{snippet.title}</p>
-          <p className={styles.channel}>{snippet.channelTitle}</p>
-        </div>
-      </div>
-    </li>
-  );
-};
+const VideoDetail = ({ video, video: { snippet } }) => (
+  <section className={styles.detail}>
+    <iframe
+      className={styles.video}
+      type="text/html"
+      width="100%"
+      height="500px"
+      src={`https://www.youtube.com/embed/${video.id}`}
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <h2>{snippet.title}</h2>
+    <h3>{snippet.channelTitle}</h3>
+    <pre className={styles.description}>{snippet.description}</pre>
+  </section>
+);
 
-export default VideoItem;
+export default VideoDetail;
