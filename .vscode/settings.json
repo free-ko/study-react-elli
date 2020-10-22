@@ -3,5 +3,11 @@
         "titleBar.activeBackground": "#3F708D",
         "titleBar.inactiveBackground": "#3F708D"
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+
+    "beautify.ignore": [
+        "**/*.js",
+        "**/*.jsx"
+    ],
+    
 }
