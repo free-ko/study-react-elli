@@ -12,12 +12,12 @@ const Maker = ({ authService }) => {
       id: '1',
       name: 'FREEKO_1',
       company: 'FREEKO',
-      theme: 'light',
+      theme: 'dark',
       title: 'UX Engineer',
       email: 'duddnr654@naver.com',
       message: 'go for it',
       fileName: 'FREEKO',
-      fileURL: 'FREEKO.png'
+      fileURL: null,
     },
     {
       id: '2',
@@ -28,18 +28,18 @@ const Maker = ({ authService }) => {
       email: 'duddnr654@naver.com',
       message: 'go for it',
       fileName: 'FREEKO',
-      fileURL: 'FREEKO.png'
+      fileURL: null,
     },
     {
       id: '3',
       name: 'FREEKO_3',
       company: 'FREEKO',
-      theme: 'light',
+      theme: 'colorful',
       title: 'UX Engineer',
       email: 'duddnr654@naver.com',
       message: 'go for it',
       fileName: 'FREEKO',
-      fileURL: 'FREEKO.png'
+      fileURL: null,
     }
   ]);
   const history = useHistory();
