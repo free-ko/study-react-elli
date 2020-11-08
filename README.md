@@ -1,4 +1,4 @@
-# 🎉 Study React 🎉 
+# Study React 🎉 
 
 <br/>
 
