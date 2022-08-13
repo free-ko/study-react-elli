@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './app.css';
+import VideoList from "./components/videoList/videoList";
 
 function App() {
   const [videos, setVideos] = useState([]);
@@ -20,7 +21,7 @@ function App() {
   }, [])
 
   return (
-    <h1>Hello:)</h1>
+    <VideoList videos={videos}/>
   );
 }
 
