@@ -9,7 +9,7 @@
 ```jsx
 import React from "react";
 
-import "./app.css";
+import "./app.module.css";
 
 function App() {
 	const name = 'freeko';
