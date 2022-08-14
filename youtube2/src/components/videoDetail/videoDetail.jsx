@@ -6,11 +6,12 @@ function VideoDetail({ video, video: { snippet } }) {
     <section className={styles.detail}>
       <iframe
         className={styles.video}
+        title="youtube video player"
         type="text/html"
         width="100%"
         height="500px"
         src={`https://www.youtube.com/embed/${video.id}`}
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
       ></iframe>
       <h2>{snippet.title}</h2>

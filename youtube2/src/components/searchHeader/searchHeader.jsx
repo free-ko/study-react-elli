@@ -52,4 +52,4 @@ function SearchHeader({ onSearch }) {
   )
 }
 
-export default SearchHeader
+export default React.memo(SearchHeader)
