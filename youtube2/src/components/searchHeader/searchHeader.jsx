@@ -6,7 +6,6 @@ function SearchHeader({ onSearch }) {
 
   const handleSearch = () => {
     const value = inputRef.current.value;
-    console.log(value);
     onSearch(value);
   }
 
